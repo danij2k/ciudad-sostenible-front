@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #78bcc4;
+  color: #002c3e;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+}
+
+.navigator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 1.5rem;
+  background-color: #002c3e;
+  height: 2rem;
+  width: 100%;
+}
+
+.navigator * {
+  color: #f7f8f3;
+  text-decoration: none;
+}
+
+.homepageH1 {
+  margin-top: 2.5rem;
+  margin-left: 5rem;
+  margin-bottom: 2.5rem;
+}
+
+.homepageparragraf {
+  margin-left: 6rem;
+}
+
+.postlist {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  list-style: none;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f7f8f3;
+  border: solid #f7444e;
+  height: 100%;
+  margin: 2rem;
+  border-radius: 10%;
+  position: relative;
+}
+.post img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+.postTitle {
+  font-size: 2rem;
+  margin: 1rem;
+  text-decoration: underline #f7f8f3; /*Esto es una trampa que se me ha ocurrido porque no soy capaz de quitar el subrayado del hipervinculo*/
+}
+
+/* login CSS */
+
+.logintitle {
+  color: transparent;
+  display: block;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.pagelogin {
+  /*   background-image: url(https://www.solofondos.com/wp-content/uploads/2020/11/Cua%CC%81l-es-el-lema-de-la-ciudad-de-Santa-Cruz-de-Tenerife-copia.jpg);
+ */
+  background-color: #3d7f86de;
+  width: 20rem;
+  height: 10rem;
+  display: block;
+  margin: auto;
+  border-radius: 12px;
+}
+
+.email {
+  color: white;
+  text-align: center;
+  margin: auto;
+  width: 10rem;
+  border-style: none;
+}
+
+.password {
+  width: fit-content;
+  color: white;
+  text-align: center;
+  margin: auto;
+  width: 10rem;
+  border-style: none;
+}
+
+.login {
+  width: auto;
+  margin-left: 6rem;
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+}
+
+#email {
+  background-color: #78bcc4;
+}
+#pass {
+  background-color: #78bcc4;
+}
+/*Banda de resuelto*/
+
+.resuelto {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  transform: rotate(-30deg) translate(-50%, -50%);
+  transform-origin: top left;
+  background-color: green;
+  color: white;
+  border: 2px solid white;
+  font-size: large;
+}
+
+.pendiente {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  transform: rotate(-30deg) translate(-50%, -50%);
+  transform-origin: top left;
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+  font-size: large;
+}
+button {
+  background-color: #f7444e;
+  color: white;
+  font-size: large;
+}
+
+/* New Post*/
+
+.titleNP {
+  text-align: center;
+  padding-top: 2rem;
+}
+.new-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newposttitel {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.barrio {
+  text-align: center;
+  margin: auto;
+  width: 10rem;
+  border-style: none;
+  padding: 1rem;
+}
+
+.title {
+  text-align: center;
+  margin: auto;
+  width: 10rem;
+  border-style: none;
+  padding: 1rem;
+}
+
+.text {
+  text-align: center;
+  margin: auto;
+  width: 10rem;
+  border-style: none;
+  padding: 1rem;
+}
+
+.photo {
+  text-align: center;
+  margin: auto;
+  width: 10rem;
+  border-style: none;
+  padding: 1rem;
+}
+
+.text1 {
+  width: 500px;
+  height: 100px;
+}
